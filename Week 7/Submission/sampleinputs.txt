@@ -1,0 +1,6 @@
+sortList(['red', 'red', 'red', 'red', 'red'], SortedList).
+sortList(['red', 'white', 'blue','white'], SortedList).
+sortList(['blue', 'white', 'red'], SortedList).
+sortList(['white', 'red', 'blue', 'red', 'white', 'blue', 'red', 'white', 'blue', 'red', 'white', 'blue', 'red', 'white', 'blue'], SortedList).
+sortList(['blue', 'blue', 'blue', 'blue'], SortedList).
+sortList([], SortedList).

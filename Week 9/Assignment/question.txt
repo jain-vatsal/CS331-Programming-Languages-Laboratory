@@ -1,0 +1,1 @@
+Write a Haskell function that takes a string as input and returns the frequency of each unique word in the string, ignoring case sensitivity and punctuation. Consider a word as any sequence of characters separated by spaces.

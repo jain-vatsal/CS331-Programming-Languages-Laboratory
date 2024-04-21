@@ -1,0 +1,13 @@
+Create a Prolog predicate that discovers two prime numbers summing up to a provided even integer, adhering to Goldbach's conjecture.
+
+Goldbach's conjecture posits that every even integer greater than 2 can be expressed as the sum of two prime numbers. For instance, an example of Goldbach's conjecture is 30, which can be written as the sum of two primes: 7 and 23 (7 + 23 = 30).
+
+Example:
+
+?- goldbach(30,L).
+
+L = [7, 23].
+
+?- goldbach(1234,L).
+
+L = [3, 1231].

@@ -1,0 +1,11 @@
+Write a prolog program to check if a given binary tree is a Binary Search Tree (BST). A BST is a binary tree where the left subtree of each node contains only nodes with values less than the node’s value and the right subtree contains only nodes with values greater than the node’s value. The program should use the following predicates:
+
+is_bst/1: A predicate that takes a binary tree as input and checks if it is a BST.
+is_subtree_less/2: A helper predicate that checks if all nodes in a subtree are less than a given value.
+is_subtree_greater/2: A helper predicate that checks if all nodes in a subtree are greater than a given value.
+ 
+
+Requirements:
+
+Write the is_bst/1 predicate that uses the helper predicates to check the BST condition for the entire tree.
+Write the is_subtree_less/2 and is_subtree_greater/2 helper predicates to check the conditions for the left and right subtrees.

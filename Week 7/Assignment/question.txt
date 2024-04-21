@@ -1,0 +1,39 @@
+Dutch Flag Sorting
+
+ 
+
+In the Netherlands, a patriotic sorting algorithm was devised inspired by the colors of the Dutch national flag: red, white, and blue. The algorithm rearranges an array of elements into three sections, each corresponding to one of the flag's colors. Here's a problem related to the Dutch Flag Sorting:
+
+ 
+
+Problem Statement:
+
+ 
+
+You are given an array of elements, each represented by a color (red, white, or blue). Implement the Dutch Flag Sorting algorithm to rearrange the elements such that all red elements come first, followed by all white elements, and finally, all blue elements.
+
+ 
+
+Requirements:
+
+ 
+
+1. Define a predicate `dutch_flag_sort/2` that takes an input list and outputs the sorted list based on the Dutch Flag Sorting algorithm.
+
+ 
+
+Example:
+
+ 
+
+?- dutch_flag_sort(['white', 'red', 'blue', 'red', 'white', 'blue'], Sorted).
+
+% Should return Sorted = ['red', 'red', 'white', 'white', 'blue', 'blue'].
+
+ 
+
+Note:
+
+- Ensure that your implementation correctly sorts the elements in linear time, as the Dutch Flag Sorting algorithm is known for its efficiency.
+
+- Provide additional test cases to demonstrate the effectiveness of your sorting algorithm.
